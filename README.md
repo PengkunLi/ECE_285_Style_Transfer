@@ -6,17 +6,19 @@ Install package 'easydict' as follow:<br>
 $ pip install --user easydict
 
 ## Code organization:
-NeuralTransfer.ipynb                     -- Use Neural Style Transfer model to achieve Style Transfer between two images
+Demo.ipynb                               -- Run a demo which import the trained model from the checkpoint and then apply it on the test set and plot the first 3 images
 
-OurCycleGAN_demo.ipynb                   -- Run a demo which import the trained model from the checkpoint and then apply it on the test set and plot the first 3 images
+NeuralTransfer.ipynb                     -- Use Neural Style Transfer model to achieve Style Transfer between two images
 
 OurCycleGan_Small_Datasets_Train.ipynb   -- Run the training and validation of our Cycle-GANs model with small datasets.
 
 OurCycleGan_Large_Datasets_Train.ipynb   -- Run the training and validation of our Cycle-GANs model with large datasets.
 
-OurCycleGan_Small_Datasets.py            -- Provide everything for implemention of the small datasets part of OurCycleGAN_demo.ipynb.
+NeuralStyleTransfer.py                   -- Provide everything for implemention of Neural Style Transfer model in DEMO.ipynb.
 
-OurCycleGan_Large_Datasets.py            -- Provide everything for implemention of the large datasets part of OurCycleGAN_demo.ipynb.
+OurCycleGan_Small_Datasets.py            -- Provide everything for implemention of Cycle-GANs model with small datasets in DEMO.ipynb.
+
+OurCycleGan_Large_Datasets.py            -- Provide everything for implemention of Cycle-GANs model with large datasets in DEMO.ipynb.
 
 models.py                                -- Basic architectures of Cycle-GANs (Generators and Discriminators).
 
@@ -34,7 +36,7 @@ check_Romanticism_forest_max             -- Include trained Cycle-GANs model of 
 
 check_Rococo_field_max                   -- Include trained Cycle-GANs model of Rococo and field with large datasets.
 
-All sixs folders are needed to implement the demo. Please upload them in the same folder that contains OurCycleGAN_demo.ipynb. 
+All sixs folders are needed to implement the demo. Please upload them in the same folder that contains DEMO.ipynb. 
 They can be downlaod through this dir: <br>
 https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
 
