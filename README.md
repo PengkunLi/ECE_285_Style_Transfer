@@ -2,13 +2,12 @@
 This is a project of Style Transfer with Neural Style Transfer and Cycle-GAN developed by Pengkun Li, Jun Hu, Ming Lei and Meng Zhang.
 
 ## Requirements:
-Install package 'easydict' as follow:<br>
-$ pip install --user easydict
+Install package 'easydict' as follow:    $ pip install --user easydict
 
 ## Code organization:
-Demo.ipynb                               -- Run a demo which import the trained model from the checkpoint and then apply it on the test set and plot the first 3 images
+Demo.ipynb                               -- Run a demo which import the trained model from the checkpoint and then apply it on the test set and plot the first 3 images.
 
-NeuralTransfer.ipynb                     -- Use Neural Style Transfer model to achieve Style Transfer between two images
+NeuralTransfer.ipynb                     -- Use Neural Style Transfer model to achieve Style Transfer between two images.
 
 OurCycleGan_Small_Datasets_Train.ipynb   -- Run the training and validation of our Cycle-GANs model with small datasets.
 
