@@ -35,12 +35,14 @@ check_Romanticism_forest_max             -- Include trained Cycle-GANs model of 
 check_Rococo_field_max                   -- Include trained Cycle-GANs model of Rococo and field with large datasets.
 
 All sixs folders are needed to implement the demo. Please upload them in the same folder that contains OurCycleGAN_demo.ipynb. 
-They can be downlaod through this dir: 
+They can be downlaod through this dir: <br>
 https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
 
 ## code reference:
-NeuralTransfer.ipynb is constructed based on this website: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
+NeuralTransfer.ipynb is constructed based on this website: <br>
+https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 
-model.py, utils.py, TraninCycleGan.py, and NewCycleGAN.ipynb are constructed based on the code in this github respository: https://github.com/aitorzip/PyTorch-CycleGAN.git
+model.py, utils.py, OurCycleGan_Small_Datasets_Train.ipynb, OurCycleGan_Large_Datasets_Train.ipynb, OurCycleGan_Small_Datasets.py and OurCycleGan_Large_Datasets.py are constructed based on the code in this github respository: <br>
+https://github.com/aitorzip/PyTorch-CycleGAN.git
 
 OurCycleGan_Small_Datasets_Train.ipynb, OurCycleGan_Large_Datasets_Train.ipynb, OurCycleGan_Small_Datasets.py and OurCycleGan_Large_Datasets.py use the checkpoint method mentioned in the nntools.py
