@@ -23,11 +23,11 @@ models.py                                -- Basic architectures of Cycle-GANs (G
 
 utils.py                                 -- Include auxiliary functions which are needed during the training process of Cycle-GAN.
 
-check_Ukiyo_e_city_small                 -- Include trained Cycle-GANs model of Ukiyo_e and city with small datasets.
+check_Ukiyo_e_city                       -- Include trained Cycle-GANs model of Ukiyo_e and city with small datasets.
 
-check_Romanticism_forest_small           -- Include trained Cycle-GANs model of Romanticism and forest with small datasets.
+check_Romanticism_forest                 -- Include trained Cycle-GANs model of Romanticism and forest with small datasets.
 
-check_Rococo_field_small                 -- Include trained Cycle-GANs model of Rococo and field with small datasets.
+check_Rococo_field                       -- Include trained Cycle-GANs model of Rococo and field with small datasets.
 
 check_Ukiyo_e_city_max                   -- Include trained Cycle-GANs model of Ukiyo_e and city with large datasets.
 
