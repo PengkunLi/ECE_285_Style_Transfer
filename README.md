@@ -18,7 +18,7 @@ OurCycleGan_Small_Datasets.py            -- Provide everything for implemention 
 
 OurCycleGan_Large_Datasets.py            -- Provide everything for implemention of the large datasets part of OurCycleGAN_demo.ipynb.
 
-models.py                                -- Basic architectures of Cycle-GANs (Generators and Discriminators) as mentioned in the 3.3.2 (Implementation) of the report.
+models.py                                -- Basic architectures of Cycle-GANs (Generators and Discriminators).
 
 utils.py                                 -- Include auxiliary functions which are needed during the training process of Cycle-GAN.
 
