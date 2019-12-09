@@ -35,8 +35,7 @@ check_Romanticism_forest_max             -- Include trained Cycle-GANs model of 
 
 check_Rococo_field_max                   -- Include trained Cycle-GANs model of Rococo and field with large datasets.
 
-All sixs folders are needed to implement the demo. Please upload them in the same folder that contains DEMO.ipynb. 
-They can be downlaod through this dir: <br>
+All sixs folders are needed to implement the demo. Please create them  in the same folder that contains DEMO.ipynb and upload their corresponding files. Those files can be downlaod through this dir: <br>
 https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
 
 ## code reference:
