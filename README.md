@@ -22,7 +22,7 @@ models.py                                -- Basic architectures of Cycle-GANs (G
 
 utils.py                                 -- Include auxiliary functions which are needed during the training process of Cycle-GAN.
 
-ECE285_Project_CheckPoint                -- Include all checkpoint files that are needed to implement demo. 
+ECE285_Project_CheckPoint                -- Include all checkpoint files that are needed to implement demo. Please download all six folders.
 
 Also, you need to download the checkpoint.pth.tar file into the check0 file if you want to implement demo.ipynb. The download dir is :https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
 
