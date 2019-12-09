@@ -22,12 +22,23 @@ models.py                                -- Basic architectures of Cycle-GANs (G
 
 utils.py                                 -- Include auxiliary functions which are needed during the training process of Cycle-GAN.
 
-ECE285_Project_CheckPoint                -- Include all checkpoint files that are needed to implement demo. Please download all six folders.
+check_Ukiyo_e_city_small                 -- Include trained Cycle-GANs model of Ukiyo_e and city with small datasets.
 
-Also, you need to download the checkpoint.pth.tar file into the check0 file if you want to implement demo.ipynb. The download dir is :https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
+check_Romanticism_forest_small           -- Include trained Cycle-GANs model of Romanticism and forest with small datasets.
+
+check_Rococo_field_small                 -- Include trained Cycle-GANs model of Rococo and field with small datasets.
+
+check_Ukiyo_e_city_max                   -- Include trained Cycle-GANs model of Ukiyo_e and city with large datasets.
+
+check_Romanticism_forest_max             -- Include trained Cycle-GANs model of Romanticism and forest with large datasets.
+
+check_Rococo_field_max                   -- Include trained Cycle-GANs model of Rococo and field with large datasets.
+
+All sixs folders are needed to implement the demo. Please upload them in the same folder that contains OurCycleGAN_demo.ipynb. 
+They can be downlaod through this dir: https://drive.google.com/drive/folders/1oIX-J0RH8npcyDHh8MjWIyjfmTeHjton?usp=sharing
 
 ## code reference:
-NeuralTransfer.ipynb is constructed based on this website: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html.
+NeuralTransfer.ipynb is constructed based on this website: https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
 
 model.py, utils.py, TraninCycleGan.py, and NewCycleGAN.ipynb are constructed based on the code in this github respository: https://github.com/aitorzip/PyTorch-CycleGAN.git
 
